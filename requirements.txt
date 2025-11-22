@@ -1,0 +1,29 @@
+# Core dependencies
+python-dotenv
+
+# PDF Processing
+pdfplumber
+PyPDF2
+
+# Audio Processing
+openai-whisper
+torch
+torchaudio
+
+# Embeddings and Vector Database
+sentence-transformers
+chromadb
+chromadb-client
+
+# LangChain for RAG pipeline
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+
+# OpenAI API
+openai
+
+# Utilities
+numpy
+tqdm
