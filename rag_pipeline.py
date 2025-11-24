@@ -18,7 +18,7 @@ class RAGPipeline:
         self,
         vector_store: VectorStore,
         api_key: str,
-        model: str = "gpt-3.5-turbo",
+        model: str = "gpt-5.1",
         temperature: float = 0.7,
         max_tokens: int = 500
     ):
@@ -272,7 +272,7 @@ if __name__ == "__main__":
     rag = RAGPipeline(
         vector_store=vector_store,
         api_key=os.getenv("OPENAI_API_KEY"),
-        model="gpt-3.5-turbo"
+        model="gpt-5.1"
     )
     
     # Test query

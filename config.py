@@ -33,7 +33,7 @@ class Config:
     TOP_K_RESULTS = int(os.getenv("TOP_K_RESULTS", "5"))
     
     # LLM Settings
-    LLM_MODEL = os.getenv("LLM_MODEL", "gpt-3.5-turbo")
+    LLM_MODEL = os.getenv("LLM_MODEL", "gpt-5.1")
     LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.7"))
     MAX_TOKENS = int(os.getenv("MAX_TOKENS", "500"))
     
