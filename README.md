@@ -188,7 +188,3 @@ python test_chatbot.py
 python main.py --stats
 python main.py --config
 ```
-
-## 📄 License
-
-This project uses various open-source libraries. Ensure compliance with OpenAI Terms of Service and individual library licenses.
